@@ -1,269 +1,419 @@
-# SelfSphere
+<div align="center">
 
-> **“Every game you play reveals a piece of you. Every choice you make shapes your digital twin.”**
+# ◈ S E L F S P H E R E ◈
 
-SelfSphere is a personality-discovery mobile game that helps users understand themselves through immersive scenarios, quizzes, and interactive storytelling.
+### `YOUR DIGITAL SELF AWAITS`
 
-As you play, an **AI Twin** evolves alongside you — learning your communication style, values, and personality — so it can eventually speak and act on your behalf.
+**Every game you play reveals a piece of you.**
+**Every choice you make shapes your digital twin.**
 
----
+<br>
 
-## ✨ Core Features
+[![React Native](https://img.shields.io/badge/REACT_NATIVE-111827?style=for-the-badge\&logo=react\&logoColor=61DAFB)](https://reactnative.dev/)
+[![Expo](https://img.shields.io/badge/EXPO-111827?style=for-the-badge\&logo=expo\&logoColor=white)](https://expo.dev/)
+[![Node.js](https://img.shields.io/badge/NODE.JS-111827?style=for-the-badge\&logo=nodedotjs\&logoColor=68A063)](https://nodejs.org/)
+[![MongoDB](https://img.shields.io/badge/MONGODB-111827?style=for-the-badge\&logo=mongodb\&logoColor=47A248)](https://www.mongodb.com/)
+[![OpenAI](https://img.shields.io/badge/AI_TWIN-111827?style=for-the-badge\&logo=openai\&logoColor=white)](https://openai.com/)
 
-### 🧠 Personality Discovery Engine
+<br>
 
-* **13-Dimensional Persona Mapping**
+`◉ SYSTEM STATUS: ONLINE`
 
-  * Core Values
-  * Personality Traits
-  * Emotional Triggers
-  * Passions
-  * Perspectives
-  * Beliefs
-  * Success Definition
-  * Coping Mechanisms
-  * Natural Strengths
-  * Cognitive Drains
-  * Personal Boundaries
-  * Aesthetic Identity
-  * Style Persona
-
-* **Scenario-Based Games**
-
-  * Branching narratives designed to reveal personality traits.
-
-* **Visual Persona Radar**
-
-  * Interactive visualization showing the user's unique personality fingerprint.
-
-### 🤖 AI Twin
-
-* **Evolving Digital Replica**
-
-  * Learns from every game session and user correction.
-
-* **Smart Auto-Reply**
-
-  * Handles messages when the user is busy while maintaining their authentic voice.
-
-* **Persona-Driven Responses**
-
-  * Generates communication based on the user's personality data.
-
-* **Privacy-First**
-
-  * On-device processing with encrypted cloud synchronization.
-
-### 🎨 Dual-Theme Cinematic UI
-
-#### Dark Mode — Void Runner
-
-* Neon accents
-* Glassmorphism
-* Particle effects
-* Grid-floor perspective
-* Cyberpunk / Neon-Noir aesthetic
-
-#### Feminine Mode — Velvet Dream
-
-* Soft gradients
-* Bokeh orbs
-* Watercolor washes
-* Editorial typography
-* Ethereal / dreamy aesthetic
-
-#### Cinematic Animations
-
-Slow, film-like transitions ranging from **600ms–1200ms**.
+</div>
 
 ---
 
-# 🏗️ Architecture
+<div align="center">
+
+## `// INITIALIZING SELFSPHERE`
+
+```text
+╔══════════════════════════════════════════════════════════╗
+║                                                          ║
+║                    SELFSPHERE OS                         ║
+║                                                          ║
+║              PERSONALITY SYSTEM ONLINE                   ║
+║                                                          ║
+║        ┌────────────────────────────────────┐            ║
+║        │                                    │            ║
+║        │       DISCOVER  →  PLAY            │            ║
+║        │            ↓                       │            ║
+║        │       UNDERSTAND  →  EVOLVE        │            ║
+║        │            ↓                       │            ║
+║        │           AI TWIN                  │            ║
+║        │                                    │            ║
+║        └────────────────────────────────────┘            ║
+║                                                          ║
+║                 `ENTER THE SPHERE`                       ║
+║                                                          ║
+╚══════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+---
+
+# `01 // THE EXPERIENCE`
+
+SelfSphere is a **personality-discovery mobile game** built around immersive scenarios, quizzes, interactive storytelling, and an evolving AI Twin.
+
+Instead of simply asking who you are, SelfSphere lets your **choices reveal who you are**.
+
+```text
+                    YOU
+                     │
+                     ▼
+              ┌─────────────┐
+              │   CHOICES   │
+              └──────┬──────┘
+                     │
+                     ▼
+             ┌──────────────┐
+             │    GAMES     │
+             └──────┬───────┘
+                    │
+                    ▼
+          ┌────────────────────┐
+          │ PERSONA DISCOVERY  │
+          └─────────┬──────────┘
+                    │
+                    ▼
+             ┌─────────────┐
+             │   AI TWIN   │
+             └─────────────┘
+```
+
+> **The more you play, the more SelfSphere understands you.**
+
+---
+
+# `02 // PERSONA ENGINE`
+
+### `IDENTITY SCAN`
+
+SelfSphere maps the player across **13 personality dimensions**.
+
+Each dimension is represented on a **0–100 scale**.
+
+```text
+╭──────────────────────────────────────────────────────╮
+│                  PERSONA MATRIX                      │
+├──────────────────────────────────────────────────────┤
+│                                                      │
+│  CORE VALUES             █████████░░░░░   72        │
+│  PERSONALITY TRAITS      ██████████░░░░   81        │
+│  EMOTIONAL TRIGGERS      ██████░░░░░░░░   54        │
+│  PASSIONS                █████████░░░░░   76        │
+│  PERSPECTIVES            ████████░░░░░░   68        │
+│  VALUES & BELIEFS        ██████████░░░░   83        │
+│  SUCCESS DEFINITION      ███████░░░░░░░   61        │
+│  COPING MECHANISMS       ██████░░░░░░░░   57        │
+│  NATURAL STRENGTHS       █████████░░░░░   79        │
+│  COGNITIVE DRAINS        █████░░░░░░░░░   43        │
+│  PERSONAL BOUNDARIES     ████████░░░░░░   70        │
+│  AESTHETIC IDENTITY      ███████████░░░   88        │
+│  STYLE PERSONA           █████████░░░░░   75        │
+│                                                      │
+╰──────────────────────────────────────────────────────╯
+```
+
+### `13 DIMENSIONS`
+
+| `ID` | Dimension                 | Discovery Method                      |
+| :--: | ------------------------- | ------------------------------------- |
+| `01` | **Core Values**           | Moral dilemma scenarios               |
+| `02` | **Personality Traits**    | Psychometric mini-games               |
+| `03` | **Emotional Triggers**    | Reaction-time stress tests            |
+| `04` | **Passions**              | Interest-sorting puzzles              |
+| `05` | **Perspective**           | Philosophy branching stories          |
+| `06` | **Values & Beliefs**      | Cultural scenario responses           |
+| `07` | **Definition of Success** | Resource allocation games             |
+| `08` | **Coping Mechanisms**     | Stress-simulation choices             |
+| `09` | **Natural Strengths**     | Pattern recognition tests             |
+| `10` | **Cognitive Drains**      | Attention & memory fatigue            |
+| `11` | **Personal Boundaries**   | Social scenario simulations           |
+| `12` | **Aesthetic Identity**    | Visual preference games               |
+| `13` | **Style Persona**         | Color, silhouette & accessory sorting |
+
+---
+
+# `03 // AI TWIN`
+
+<div align="center">
+
+```text
+╔══════════════════════════════════════════╗
+║              ◉ AI TWIN                   ║
+║                                          ║
+║              STATUS: EVOLVING            ║
+║                                          ║
+║        LEARNING YOUR PATTERNS...         ║
+║                                          ║
+║        COMMUNICATION      ████████░░      ║
+║        VALUES             ███████░░░      ║
+║        PERSONALITY        █████████░      ║
+║        RESPONSE STYLE     ██████░░░░      ║
+║                                          ║
+║              `SYNCING...`                ║
+╚══════════════════════════════════════════╝
+```
+
+</div>
+
+### `TWIN PROTOCOL`
+
+**01 — LEARN**
+
+The AI Twin evolves through game sessions and user corrections.
+
+**02 — UNDERSTAND**
+
+Persona data shapes how the Twin communicates.
+
+**03 — RESPOND**
+
+The Twin generates responses based on the user's personality.
+
+**04 — REPRESENT**
+
+Eventually, the Twin can communicate and act on the user's behalf.
+
+### `CAPABILITIES`
+
+```text
+┌────────────────────────┐
+│ ◉ EVOLVING REPLICA     │
+│                        │
+│ Learns from sessions   │
+│ and corrections.       │
+└────────────────────────┘
+
+┌────────────────────────┐
+│ ◉ SMART AUTO-REPLY     │
+│                        │
+│ Handles messages while │
+│ maintaining your voice.│
+└────────────────────────┘
+
+┌────────────────────────┐
+│ ◉ PERSONA RESPONSES    │
+│                        │
+│ Uses personality data  │
+│ to shape communication.│
+└────────────────────────┘
+
+┌────────────────────────┐
+│ ◉ PRIVACY-FIRST        │
+│                        │
+│ On-device processing   │
+│ + encrypted cloud sync │
+└────────────────────────┘
+```
+
+---
+
+# `04 // GAME MODES`
+
+<div align="center">
+
+## `CHOOSE YOUR REALITY`
+
+</div>
+
+### ◈ VOID RUNNER
+
+```text
+        V O I D   R U N N E R
+
+        CYBERPUNK
+        NEON-NOIR
+        GLASSMORPHISM
+        3D DEPTH
+        PARTICLE EFFECTS
+        GRID PERSPECTIVE
+
+        STATUS: `ACTIVE`
+```
+
+A dark cinematic mode built around neon accents, glassmorphism, particle effects and grid-floor perspective.
+
+---
+
+### ♡ VELVET DREAM
+
+```text
+        V E L V E T   D R E A M
+
+        DREAMY
+        ETHEREAL
+        SOFT GRADIENTS
+        BOKEH
+        WATERCOLOR
+        EDITORIAL
+
+        STATUS: `ACTIVE`
+```
+
+A feminine cinematic mode built around soft gradients, bokeh orbs, watercolor washes and editorial typography.
+
+---
+
+# `05 // CORE SYSTEMS`
+
+```text
+╭─────────────────────╮
+│                     │
+│   ◈ GAME ENGINE     │
+│                     │
+│   SCENARIOS         │
+│   BRANCHING LOGIC   │
+│   SESSION TRACKING  │
+│   SCORING           │
+│                     │
+╰─────────────────────╯
+
+
+╭─────────────────────╮
+│                     │
+│   ◉ PERSONA ENGINE  │
+│                     │
+│   13 DIMENSIONS     │
+│   PERSONA VECTOR    │
+│   SCORE ANALYSIS    │
+│                     │
+╰─────────────────────╯
+
+
+╭─────────────────────╮
+│                     │
+│   ◎ TWIN ENGINE     │
+│                     │
+│   AI RESPONSES      │
+│   TWIN PROFILE      │
+│   PERSONALITY DATA  │
+│                     │
+╰─────────────────────╯
+```
+
+---
+
+# `06 // SYSTEM ARCHITECTURE`
 
 ```text
 SelfSphere/
 │
-├── client/                         # React Native + Expo App
-│   ├── app/                        # Expo Router file-based routing
-│   │   ├── auth/                   # Login, Register, Onboarding
-│   │   ├── (tabs)/                 # Main app screens
-│   │   │   ├── index.tsx           # Home Dashboard
-│   │   │   ├── games.tsx           # Game Hub
-│   │   │   ├── twin.tsx            # AI Twin Chat
-│   │   │   ├── profile.tsx         # User Profile
-│   │   │   └── settings.tsx        # App Settings
-│   │   └── _layout.tsx             # Root layout with theme provider
+├── client/
+│   ├── app/
+│   │   ├── auth/
+│   │   ├── (tabs)/
+│   │   │   ├── index.tsx
+│   │   │   ├── games.tsx
+│   │   │   ├── twin.tsx
+│   │   │   ├── profile.tsx
+│   │   │   └── settings.tsx
+│   │   └── _layout.tsx
 │   │
 │   ├── components/
-│   │   ├── ui/                     # Reusable UI primitives
-│   │   │   ├── Input.tsx            # Glassmorphic input field
-│   │   │   ├── Button.tsx           # Gradient CTA button
-│   │   │   ├── Card.tsx             # Glass card with blur
-│   │   │   └── Avatar.tsx           # Glowing avatar component
-│   │   ├── game/                   # Game-specific components
-│   │   ├── twin/                   # AI Twin chat components
-│   │   └── theme/                  # Theme toggle, mode provider
+│   │   ├── ui/
+│   │   ├── game/
+│   │   ├── twin/
+│   │   └── theme/
 │   │
 │   ├── hooks/
-│   │   ├── usePersona.ts            # Persona data & updates
-│   │   ├── useTwin.ts               # Twin interaction logic
-│   │   └── useTheme.ts              # Dark / Feminine mode
+│   │   ├── usePersona.ts
+│   │   ├── useTwin.ts
+│   │   └── useTheme.ts
 │   │
 │   ├── constants/
-│   │   ├── colors.ts                # Theme color tokens
-│   │   ├── typography.ts            # Font scale & styles
-│   │   └── animations.ts            # Shared animation configs
+│   │   ├── colors.ts
+│   │   ├── typography.ts
+│   │   └── animations.ts
 │   │
 │   └── assets/
-│       ├── fonts/                   # Space Grotesk, Inter
-│       ├── images/                  # Backgrounds, illustrations
-│       └── animations/              # Lottie files
+│       ├── fonts/
+│       ├── images/
+│       └── animations/
 │
-├── server/                          # Node.js + Express Backend
+├── server/
 │   ├── config/
-│   │   ├── database.js              # MongoDB connection
-│   │   └── passport.js              # Google OAuth strategy
-│   │
 │   ├── models/
-│   │   ├── User.js                  # Auth, profile, settings
-│   │   ├── Persona.js               # 13-dimension personality vector
-│   │   ├── Scenario.js              # Game scenarios & branching logic
-│   │   ├── GameSession.js           # Session tracking & scoring
-│   │   └── TwinProfile.js           # AI Twin training data
-│   │
 │   ├── routes/
-│   │   ├── auth.js                  # Register, Login, Google OAuth
-│   │   ├── persona.js               # CRUD personality data
-│   │   ├── game.js                  # Scenario fetch, answer submit
-│   │   ├── twin.js                  # Twin message generation
-│   │   └── user.js                  # Profile, settings update
-│   │
 │   ├── controllers/
-│   │   ├── authController.js
-│   │   ├── personaController.js
-│   │   ├── gameController.js
-│   │   ├── twinController.js
-│   │   └── userController.js
-│   │
 │   ├── middleware/
-│   │   ├── auth.js                  # JWT verification
-│   │   └── errorHandler.js
-│   │
 │   ├── services/
-│   │   ├── twinEngine.js            # AI Twin response generation
-│   │   ├── personaScorer.js         # Game answer persona vector
-│   │   └── openaiService.js         # OpenAI API integration
-│   │
 │   ├── utils/
-│   │   └── personaDimensions.js      # 13-dimension definitions
-│   │
-│   └── index.js                     # Server entry point
+│   └── index.js
 │
 └── README.md
 ```
 
 ---
 
-# 🛠️ Tech Stack
+# `07 // TECHNOLOGY CORE`
 
-| Layer      | Technology                       | Purpose                       |
-| ---------- | -------------------------------- | ----------------------------- |
-| Frontend   | React Native + Expo              | Cross-platform mobile app     |
-| Routing    | Expo Router                      | File-based navigation         |
-| Styling    | NativeWind / StyleSheet          | Tailwind-like utility classes |
-| State      | Zustand                          | Lightweight global state      |
-| Animations | React Native Reanimated          | 60fps cinematic transitions   |
-| Backend    | Node.js + Express                | REST API server               |
-| Database   | MongoDB + Mongoose               | Document store for personas   |
-| Auth       | JWT + Passport.js + Google OAuth | Secure authentication         |
-| AI         | OpenAI GPT-4 API                 | Twin personality modeling     |
-| Storage    | Cloudinary / AWS S3              | User avatars and game assets  |
+<div align="center">
 
----
+| SYSTEM      | TECHNOLOGY                       |
+| :---------- | :------------------------------- |
+| `MOBILE`    | React Native + Expo              |
+| `ROUTING`   | Expo Router                      |
+| `STYLING`   | NativeWind / StyleSheet          |
+| `STATE`     | Zustand                          |
+| `ANIMATION` | React Native Reanimated          |
+| `BACKEND`   | Node.js + Express                |
+| `DATABASE`  | MongoDB + Mongoose               |
+| `AUTH`      | JWT + Passport.js + Google OAuth |
+| `AI`        | OpenAI GPT-4 API                 |
+| `STORAGE`   | Cloudinary / AWS S3              |
 
-# 🧬 Persona Dimensions
-
-The SelfSphere engine maps users across **13 dimensions**, with each dimension scored from **0–100**.
-
-| #  | Dimension             | Discovered Via                        |
-| -- | --------------------- | ------------------------------------- |
-| 1  | Core Values           | Moral dilemma scenarios               |
-| 2  | Personality Traits    | Psychometric mini-games               |
-| 3  | Emotional Triggers    | Reaction-time stress tests            |
-| 4  | Passions              | Interest-sorting puzzles              |
-| 5  | Perspective           | Philosophy branching stories          |
-| 6  | Values & Beliefs      | Cultural scenario responses           |
-| 7  | Definition of Success | Resource allocation games             |
-| 8  | Coping Mechanisms     | Stress-simulation choices             |
-| 9  | Natural Strengths     | Pattern recognition tests             |
-| 10 | Cognitive Drains      | Attention & memory fatigue            |
-| 11 | Personal Boundaries   | Social scenario simulations           |
-| 12 | Aesthetic Identity    | Visual preference games               |
-| 13 | Style Persona         | Color, silhouette & accessory sorting |
+</div>
 
 ---
 
-# 🚀 Getting Started
+# `08 // SYSTEM BOOT`
 
-## Prerequisites
+### `REQUIREMENTS`
 
-Make sure you have:
+```text
+NODE.JS       >= 18
+MONGODB       ATLAS / LOCAL
+EXPO GO       MOBILE TESTING
+GOOGLE CLOUD  OAUTH
+```
 
-* Node.js v18+
-* MongoDB Atlas account or local MongoDB
-* Expo Go app on your phone
-* Google Cloud project for OAuth
-
----
-
-## 1. Clone & Install
+### `01 — CLONE`
 
 ```bash
 git clone https://github.com/yourusername/selfsphere.git
 cd selfsphere
 ```
 
----
-
-## 2. Start the Server
+### `02 — SERVER`
 
 ```bash
 cd server
-
 cp .env.example .env
-
 npm install
-
 npm run dev
 ```
 
-The server runs on:
+`SERVER → http://localhost:5000`
 
-```text
-http://localhost:5000
-```
-
----
-
-## 3. Start the Mobile App
-
-Open another terminal:
+### `03 — CLIENT`
 
 ```bash
 cd client
-
 npm install
-
 npx expo start
 ```
 
-Scan the QR code using **Expo Go** on iOS or Android.
+Scan the generated QR code with Expo Go.
 
 ---
 
-# 🔐 Environment Variables
+# `09 // ENVIRONMENT CONFIG`
 
-## Server `.env`
+### `SERVER/.env`
 
 ```env
 PORT=5000
@@ -279,7 +429,7 @@ GOOGLE_CLIENT_SECRET=your_google_oauth_client_secret
 OPENAI_API_KEY=your_openai_api_key
 ```
 
-## Client `.env`
+### `CLIENT/.env`
 
 ```env
 EXPO_PUBLIC_API_URL=http://localhost:5000
@@ -287,11 +437,73 @@ EXPO_PUBLIC_API_URL=http://localhost:5000
 EXPO_PUBLIC_GOOGLE_CLIENT_ID=your_google_oauth_client_id
 ```
 
-> Never commit your real `.env` files or API keys to GitHub.
+> ⚠️ **SYSTEM SECURITY:** Never expose real API keys or secrets inside the repository.
 
 ---
 
-# 🗺️ Roadmap
+# `10 // DEVELOPMENT QUEST`
+
+<div align="center">
+
+```text
+              ┌──────────────────────────┐
+              │      SELFSPHERE QUEST    │
+              └──────────────────────────┘
+
+                         START
+                           │
+                           ▼
+                  ┌────────────────┐
+                  │ ARCHITECTURE   │
+                  │       ✓        │
+                  └───────┬────────┘
+                          │
+                          ▼
+                  ┌────────────────┐
+                  │  CINEMATIC UI  │
+                  │       ✓        │
+                  └───────┬────────┘
+                          │
+                          ▼
+                  ┌────────────────┐
+                  │ AUTHENTICATION  │
+                  │       ◇        │
+                  └───────┬────────┘
+                          │
+                          ▼
+                  ┌────────────────┐
+                  │ PERSONA GAMES  │
+                  │       ◇        │
+                  └───────┬────────┘
+                          │
+                          ▼
+                  ┌────────────────┐
+                  │ PERSONA ENGINE │
+                  │       ◇        │
+                  └───────┬────────┘
+                          │
+                          ▼
+                  ┌────────────────┐
+                  │    AI TWIN     │
+                  │       ◇        │
+                  └───────┬────────┘
+                          │
+                          ▼
+                  ┌────────────────┐
+                  │ SOCIAL SYSTEM  │
+                  │       ◇        │
+                  └───────┬────────┘
+                          │
+                          ▼
+                  ┌────────────────┐
+                  │ STORE RELEASE  │
+                  │       ◇        │
+                  └────────────────┘
+```
+
+</div>
+
+### `QUEST LOG`
 
 * [x] Project architecture & design system
 * [x] Dual-theme cinematic UI specification
@@ -308,47 +520,65 @@ EXPO_PUBLIC_GOOGLE_CLIENT_ID=your_google_oauth_client_id
 
 ---
 
-# 🤝 Contributing
-
-We welcome contributors who vibe with the vision.
-
-Whether you're interested in:
-
-* Game design & narrative writing
-* React Native animations
-* AI personality modeling
-* Cinematic UI/UX
-
-We'd love to have you.
-
-### Fork the Repository
+# `11 // CONTRIBUTOR TERMINAL`
 
 ```bash
+# FORK THE REPOSITORY
+
 git checkout -b feature/your-feature-name
-```
 
-### Make Your Changes
+# MAKE YOUR CHANGES
 
-```bash
-# Make your changes
-```
+# COMMIT
 
-### Commit Your Changes
-
-```bash
 git commit -m "feat: add your feature"
-```
 
-### Push Your Branch
+# PUSH
 
-```bash
 git push origin feature/your-feature-name
 ```
 
-Then open a **Pull Request**.
+Then open a Pull Request.
+
+### `CONTRIBUTION SIGNAL`
+
+```text
+GAME DESIGN              ◇
+NARRATIVE WRITING        ◇
+REACT NATIVE             ◇
+ANIMATIONS               ◇
+AI PERSONALITY           ◇
+CINEMATIC UI/UX          ◇
+```
 
 ---
 
-# 📄 License
+# `12 // SYSTEM IDENTITY`
 
-MIT License — Built with obsession by the SelfSphere team.
+<div align="center">
+
+```text
+╔════════════════════════════════════════════════════╗
+║                                                    ║
+║                 S E L F S P H E R E                ║
+║                                                    ║
+║             DISCOVER YOURSELF.                    ║
+║             PLAY YOUR STORY.                      ║
+║             MEET YOUR TWIN.                       ║
+║                                                    ║
+║                  ◉ SYSTEM ONLINE                  ║
+║                                                    ║
+╚════════════════════════════════════════════════════╝
+```
+
+### `EVERY CHOICE REVEALS A PIECE OF YOU.`
+
+### `EVERY CHOICE SHAPES YOUR DIGITAL TWIN.`
+
+<br>
+
+**MIT License**
+
+*Built with obsession by the SelfSphere team.*
+
+</div>
